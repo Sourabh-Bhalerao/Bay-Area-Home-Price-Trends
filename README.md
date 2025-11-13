@@ -223,10 +223,14 @@ For these reasons:
 To reproduce the processed datasets:
 
 1. Place the raw files into:
+
+```
 data/raw/
     ├── zillow_zhvi_zip.csv
     ├── zip_code_market_tracker.tsv000
     └── acs_zcta_selected.csv   (not used in Module 20; may use later / Census data)
+```
+
 2. Run the notebook:
 
 `capstone_initial_report_eda.ipynb`
