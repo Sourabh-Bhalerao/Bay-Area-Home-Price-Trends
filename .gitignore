@@ -1,14 +1,8 @@
-# Ignore all raw heavy files
+# Ignore raw & large data
 data/raw/
+*.tsv
+*.tsv000
+*.csv
 
-# Ignore intermediate processed files that can be regenerated
-data/processed/zillow_zhvi_zip_long.csv
-data/processed/redfin_zip_monthly.csv
-data/processed/fred_monthly.csv
-data/processed/acs_zcta_selected.csv
-
-# Keep the final panel, it's small and used directly
-# data/processed/panel_zip_monthly.csv is tracked
-
-# Jupyter checkpoint noise
-.ipynb_checkpoints/
+# But keep processed (small) data if you want
+!data/processed/
