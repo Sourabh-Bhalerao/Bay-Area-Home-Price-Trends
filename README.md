@@ -181,6 +181,7 @@ The full project requires additional models and refined reporting. Next steps in
 
 ## 📁 Project Structure
 
+```
 Bay-Area-Home-Price-Trends/
 │
 ├── data/
@@ -198,7 +199,7 @@ Bay-Area-Home-Price-Trends/
 ├── capstone_initial_report_eda.ipynb   # Main Module 20 notebook
 ├── README.md                           # Project documentation
 └── .gitignore                          # Ensures raw data not uploaded to GitHub
-
+```
 
 ## Why Raw Data Is Not Included in the Repository
 
